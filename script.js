@@ -1,11 +1,11 @@
 // editable info
 
 const publicSpreadsheetUrl =
-  "https://docs.google.com/spreadsheets/d/1Q23ZnH7KHBHahFT65_9RisSu1Wk4gNOrowiprtxgE4A/edit?usp=sharing"; // change this to your own URL
+  "ma SHEET FEUILLE"; // change this to your own URL
 const categoryStartNum = 3; // let the program know where the categoy begins on the spreadsheet column. Default value is 3.
+
 const sheetName = "Sheet1"; // this has to match your google doc sheet name
 const punctuation = ","; // this changes the punctuation between the title and the description. In most cases you'd want to use "," or "-" or ":"
-
 // tableTop.js script
 function init() {
   Tabletop.init({
